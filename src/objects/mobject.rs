@@ -7,7 +7,7 @@ pub trait Mobject: Clone + Send + Sync {
     
     fn scale(&mut self, factor: f64);
     
-    fn rotaate(&mut self, angle: f64);
+    fn rotate(&mut self, angle: f64);
     
     fn set_fill(&mut self, color: Color);
     
